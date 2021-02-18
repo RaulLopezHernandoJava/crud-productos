@@ -1,0 +1,23 @@
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-4 ">
+            <h4 class="titulo">Buscar Producto</h4>
+            <input class="buscador" #inputBuscar (input)="buscarProductos(inputBuscar.value)" />
+            <ul class="listadoProducto">
+                <li *ngFor="let producto of productos$ | async">
+                    <a routerLink="/detail/{{producto.id}}">
+                       {{producto.nombre}}
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- * Importante , podemos ver en el codigo "productos$" . Y es que la directiva "*ngFor" itera sobre un
+observable de array de productos (eso es lo que define el $) y no sobre un array de productos. Al tener
+el async detras asociado con un pipe se subscribe inmediatamente con lo cual no tenemos que realizar esta operacion
+en el componente de la clase-->

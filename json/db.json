@@ -1,0 +1,64 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Cable HDMI",
+      "imagen": "cablehdmi.jpg",
+      "precio": 5
+    },
+    {
+      "id": 2,
+      "nombre": "Cable VGA",
+      "imagen": "cablevga.jpg",
+      "precio": 4
+    },
+    {
+      "id": 3,
+      "nombre": "Television Samsung",
+      "imagen": "televisionsamsung.jpg",
+      "precio": 345
+    },
+    {
+      "id": 4,
+      "nombre": "MP4",
+      "imagen": "mp4.jpg",
+      "precio": 40
+    },
+    {
+      "id": 5,
+      "nombre": "MP3",
+      "imagen": "mp3.jpg",
+      "precio": 20
+    },
+    {
+      "id": 6,
+      "nombre": "Movil",
+      "imagen": "mobil.jpg",
+      "precio": 150
+    },
+    {
+      "id": 7,
+      "nombre": "Tablet",
+      "imagen": "tablet.jpg",
+      "precio": 100
+    },
+    {
+      "id": 8,
+      "nombre": "Altavoz MP3",
+      "imagen": "altavozmp3.jpg",
+      "precio": 15
+    },
+    {
+      "id": 9,
+      "nombre": "Altavoz MP3",
+      "imagen": "altavozmp3.jpg",
+      "precio": 15
+    },
+    {
+      "id": 10,
+      "nombre": "Soporte de Television",
+      "imagen": "soporte de television.jpg",
+      "precio": 15
+    }
+  ]
+}

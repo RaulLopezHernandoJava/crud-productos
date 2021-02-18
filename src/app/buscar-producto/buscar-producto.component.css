@@ -1,0 +1,14 @@
+.titulo {
+    margin: 0 auto;
+}
+
+.buscador {
+    border-radius: 0.5rem;
+    width: 100%;
+}
+
+.listadoProducto {
+    list-style-type: none;
+    text-decoration: none;
+    margin-top: 3rem;
+}

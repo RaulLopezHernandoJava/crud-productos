@@ -1,0 +1,29 @@
+<div class="conatiner">
+    <div class="row mt-5">
+        <div class="col-6 text-center">
+            <h4>{{title}}</h4>
+            <ul>
+                <li *ngFor="let producto of productos">
+                    <a routerLink="/detail/{{producto.id}}">
+                        <span class="m-3">{{producto.id}} {{producto.nombre}}</span>
+                    </a>
+                    <button class="btn btn-danger" title="delete hero " (click)="eliminarProducto(producto) ">x</button>
+                </li>
+            </ul>
+        </div>
+        <div class="col-6 text-center">
+            <label> Producto:
+      <input class="form-control" #productoNombre />
+    </label>
+            <button class="btn btn-success" (click)="anadirProducto(productoNombre.value); productoNombre.value=''">
+     Añadir Producto
+  </button>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<!-- <app-producto-detalle [producto]="selectedProducto "></app-producto-detalle> -->

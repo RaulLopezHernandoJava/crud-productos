@@ -1,0 +1,12 @@
+<div class="container">
+    <div class="col justify-content-center">
+        <div class="text-center">
+            <h3>Productos Top</h3>
+            <a *ngFor="let producto of productos" routerLink="/detail/{{producto.id}}">
+                <div>
+                    <h4>{{producto.nombre}}</h4>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
